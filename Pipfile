@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+hikari = {extras = ["speedups"], version = "*"}
+hikari-lightbulb = "*"
+uvloop = "*"
+
+[dev-packages]
+pyls = "*"
+black = "*"
+
+[requires]
+python_version = "3.10"
